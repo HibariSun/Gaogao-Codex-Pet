@@ -1,0 +1,26 @@
+# Operating system / editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+# Local configuration / credentials
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+# Development-only assets and generated caches
+reference/
+work/
+backups/
+backup/
+cache/
+.cache/
+tmp/
+temp/
+__pycache__/
+*.py[cod]
+*.log
+# dist/*.zip is intentionally tracked for download.
